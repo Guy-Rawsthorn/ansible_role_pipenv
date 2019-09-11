@@ -469,7 +469,7 @@ wrapper_options_python() {
 
     pyenv_present > /dev/null
 
-    local min_version='2.7'
+    local min_version='3.6.8'
 
     echo 'latest'
 
