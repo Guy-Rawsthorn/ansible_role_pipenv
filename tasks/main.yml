@@ -8,7 +8,7 @@
 # pip module seems to fail idempotence with --user
 - name: check if Pipenv installed
   become: yes
-  become_user: '{{ item }}'
+  become_user: 'fedora'
   stat:
     path: '~/.local/bin/pipenv'
   register: pipenv_check
