@@ -1,9 +1,9 @@
 ---
-- name: install pip
-  become: yes
-  package:
-    name: python-pip
-    state: present
+#- name: install pip
+#  become: yes
+#  package:
+#    name: python-pip
+#    state: present
 
 # pip module seems to fail idempotence with --user
 - name: check if Pipenv installed
